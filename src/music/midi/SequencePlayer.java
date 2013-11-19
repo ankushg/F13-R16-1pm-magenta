@@ -215,7 +215,7 @@ public class SequencePlayer {
                 new Pitch('F'),
                 new Pitch('E'),
                 new Pitch('D'),
-                new Pitch('A'),
+                new Pitch('C'),//changed from A to C
         }) {
             player.addNote(Instrument.PIANO, p.difference(C) + 60, start++, 1);
         }
