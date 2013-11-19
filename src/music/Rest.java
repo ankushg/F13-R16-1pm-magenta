@@ -20,6 +20,13 @@ public class Rest implements Music {
         checkRep();
     }
     
+    /**
+     * @return duration of this note
+     */
+    public double duration() {
+        return duration;
+    }
+    
     @Override
     public int hashCode() {
         final int prime = 31;
